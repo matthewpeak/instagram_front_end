@@ -1,9 +1,11 @@
 
 import './App.css';
 import SignUpForm from './components/SignUpForm'
+import UserInterface from './components/UserInterface';
 function App() {
   return (
-   <SignUpForm/>
+  //  <SignUpForm/>
+  <UserInterface user="matt"/>
   );
 }
 
