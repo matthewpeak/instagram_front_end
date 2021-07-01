@@ -1,18 +1,14 @@
 import React from 'react'
 import '../Grid.css'
-const UserGrid =(props)=>{
+import Picture from './Picture'
 
+const UserGrid =(props)=>{
+   
+    let pictures = props.pictures.map(picture=><Picture key={picture.id} src={props.src} caption={props.caption} likecount={props.likecount} />)
+    
     return(
         <div className='grid-container'>
-            <div className='picture-container'>A</div>
-            <div className='picture-container'>A</div>
-            <div className='picture-container'>A</div>
-            <div className='picture-container'>A</div>
-            <div className='picture-container'>A</div>
-            <div className='picture-container'>A</div>
-            <div className='picture-container'>A</div>
-            <div className='picture-container'>A</div>
-            <div className='picture-container'>A</div>
+           {pictures} 
         </div>
     )
 }
