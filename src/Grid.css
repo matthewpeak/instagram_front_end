@@ -1,0 +1,10 @@
+.grid-container{
+    display: flex;
+    justify-content: center;
+    flex-flow:row wrap;
+    width:200px
+}
+
+.picture-container{
+    width: 33%;
+}
