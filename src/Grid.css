@@ -7,10 +7,19 @@
 
 .image-container{
     width: 33% ;
-    height: auto ;   
+    height: auto ; 
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .image{
     width: 100px;
     height: 100px;
+    
+}
+
+.image-stats{
+    display: flex;
+    flex-direction: row;
 }
