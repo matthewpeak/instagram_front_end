@@ -5,7 +5,7 @@ import UserInterface from './components/UserInterface';
 function App() {
   return (
   //  <SignUpForm/>
-  <UserInterface user="matt"/>
+  <UserInterface/>
   );
 }
 
