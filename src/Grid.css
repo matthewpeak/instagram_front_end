@@ -2,9 +2,15 @@
     display: flex;
     justify-content: center;
     flex-flow:row wrap;
-    width:200px
+   
 }
 
-.picture-container{
-    width: 33%;
+.image-container{
+    width: 33% ;
+    height: auto ;   
+}
+
+.image{
+    width: 100px;
+    height: 100px;
 }
