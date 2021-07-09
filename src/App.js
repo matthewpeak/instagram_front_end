@@ -5,9 +5,9 @@ import UserInterface from './components/UserInterface';
 import UploadImage from './components/UploadImage'
 function App() {
   return (
-  //  <SignUpForm/>
+   <SignUpForm/>
   //<UserInterface/>
-  <UploadImage></UploadImage>
+  // <UploadImage></UploadImage>
   );
 }
 

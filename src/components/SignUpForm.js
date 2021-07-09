@@ -1,5 +1,5 @@
 import {useState} from 'react'
-
+import'../Form.css'
 
 const SignUpForm = () =>{
   const[values,setValues] = useState({
@@ -54,7 +54,7 @@ const SignUpForm = () =>{
             </div>
             <div className='form-input'>
               <label htmlFor='password' className='form-label'>
-                password
+                Password
               </label>
                 <input className='form-input' type='password' name='password' id='password' placeholder='enter your passwrod' value={values.password} onChange={handleChange} >
                 </input>
