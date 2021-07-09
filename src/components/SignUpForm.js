@@ -38,21 +38,21 @@ const SignUpForm = () =>{
     return(
     <div className='form-content'>
         <form className='form' onSubmit={handleSubmit}>
-            <div className='form-input'>
+            <div className='form-info'>
                 <label htmlFor='username' className='form-label'>
                     Username
                 </label>
                 <input className='form-input' type='text' name='username' id='username' placeholder='enter your username' value={values.username} onChange={handleChange}>
                 </input>
             </div>
-            <div className='form-input'>
+            <div className='form-info'>
               <label htmlFor='email' className='form-label'>
                 Email
               </label>
                 <input className='form-input' type='email' name='email' id='email' placeholder='enter your email' value={values.email} onChange={handleChange} >
                 </input>
             </div>
-            <div className='form-input'>
+            <div className='form-info'>
               <label htmlFor='password' className='form-label'>
                 Password
               </label>
