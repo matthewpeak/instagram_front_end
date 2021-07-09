@@ -1,4 +1,12 @@
-.Nav{
+.header{
     flex-flow:row-wrap;
-  
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
+.home-btn{
+    size: 20px;
 }
