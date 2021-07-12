@@ -12,9 +12,28 @@
     size: 20px;
 }
 
+.logo-div{
+    width: 33%;
+    padding-left: 5px;
+}
 .search-div{
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
+    width: 33%;
+    
+}
+
+.search-bar{
+    border:none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+.navigation{
+    width: 33%;
+    display:flex;
+    justify-content: flex-end;
+    
 }
 
