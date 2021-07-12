@@ -1,26 +1,31 @@
 .grid-container{
     display: flex;
     justify-content: center;
-    flex-flow:row wrap;
+    flex-direction: column;
+    align-items: center;
    
 }
 
 .image-container{
-    width: 33% ;
+    padding: 50px;
     height: auto ; 
     display: flex;
     flex-direction: column;
     
 }
 
-.image{
-    width: 100px;
-    height: 100px;
+.likes-container{
+    padding-right: 30px;
     
 }
 
 .image-stats{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
 }
 
+.comments-btn{
+    padding-top: 1px;
+}

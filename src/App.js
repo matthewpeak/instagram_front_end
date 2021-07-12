@@ -8,10 +8,10 @@ import { Fragment } from 'react';
 function App() {
   return (
   <Fragment>
-   <NavBar/>
-   <SignUpForm/>
-  {/* //<UserInterface/>
-  // <UploadImage></UploadImage> */}
+   {/* <NavBar/>
+   <SignUpForm/> */}
+   <UserInterface/>
+  {/* // <UploadImage></UploadImage> */}
   </Fragment>
   );
 }

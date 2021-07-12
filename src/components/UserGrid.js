@@ -3,7 +3,7 @@ import '../Grid.css'
 import Picture from './Picture'
 
 const UserGrid =(props)=>{
-    let pictures = props.pictures.map(picture=><Picture key={picture.id} src={picture.picture} liked={picture.liked} likecount={picture.likes} />)
+    let pictures = props.pictures.map(picture=><Picture key={picture.id} src={picture.picture} liked={picture.liked} likecount={picture.likes} commentCount={picture.commentCount} />)
     return(
         <div className='grid-container'>
            {pictures} 
