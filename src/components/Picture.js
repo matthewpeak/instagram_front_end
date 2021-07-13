@@ -1,11 +1,16 @@
-import React from 'react' 
+import React,{useState} from 'react' 
 import '../Grid.css'
 
 const Picture = (props)=>{
     
+    const [inHover, setHover] = useState(false);
+
+   
     return(
-    <div className='image-container'>
+    <div className='image-container' onMouseEnter={() => setHover(true)}
+    onMouseLeave={() => setHover(false)}>
      <img className='image' src={props.src}/>
+     {inHover &&
      <div className='image-stats'>
          <div className='likes-container'>
              {props.liked =='yes'? <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -22,6 +27,7 @@ const Picture = (props)=>{
              <span>{props.commentCount}</span>
          </div>
      </div>
+    }
     </div>
     );
 };
