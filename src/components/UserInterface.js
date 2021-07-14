@@ -2,6 +2,7 @@ import React,{useState,useEffect} from 'react'
 import UserGrid from './UserGrid'
 import NavBar from './NavBar'
 import UploadImage from './UploadImage'
+import CommentInput from './CommentInput'
 const UserInterface =()=>{
 
         const [user,setUser] = useState(1)
@@ -23,9 +24,10 @@ const UserInterface =()=>{
        return( 
                
         <div>
-       <NavBar user={user}/>
+         <CommentInput/>
+       {/* <NavBar user={user}/> */}
        {/* <UploadImage user={user}/> */}
-       <UserGrid pictures={pictures}/>
+       {/* <UserGrid pictures={pictures}/> */}
        </div>
        )
 }
