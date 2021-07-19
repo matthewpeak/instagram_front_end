@@ -1,0 +1,28 @@
+
+.comment-input-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+.comment-text-box{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    
+}
+
+.comment-submit{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    transition-duration: 0.6s;
+    padding:7.5px 16px;
+}
+.comment-submit:hover{
+    background-color: black;
+    color: white;
+}

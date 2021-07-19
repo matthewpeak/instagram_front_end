@@ -1,5 +1,5 @@
 import {useState} from 'react'
-
+import '../CommentInput.css'
 const CommentInput =(props)=>{
     
     const [commentText,setCommentText] = useState('')
@@ -16,7 +16,7 @@ const CommentInput =(props)=>{
 
     return(
     <div className='comment-input-holder'>
-        <input type='text' className='comment-text-box' value={commentText} onChange={handleChange}></input>
+        <textarea type='text' className='comment-text-box' value={commentText} onChange={handleChange}></textarea>
         <button className='comment-submit' onClick={handleSubmit}>submit</button>
     </div>
     )
